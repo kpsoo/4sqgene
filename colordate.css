@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body take up the full viewport height */
+    margin: 0; /* Remove default margin */
+  }
+
+  h2 {
+
+    text-align: center;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    gap: 20px; /* Gap between the columns */
+  }
+
+  .container-color, .container-date {
+    border: 1px solid #ccc; /* Optional: Add a border to the containers */
+    padding: 30px; /* Optional: Add some padding to the containers */
+    text-align: center; /*centers the text*/
+    border-radius: 5px;
+  }  
+
+
